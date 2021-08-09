@@ -1,0 +1,34 @@
+html,
+body{
+    height: 100%;
+}
+
+.containar{
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+    width: 20%;
+    min-width: 300px;
+    background-color: var(--gray-dark);
+}
+
+.menu{
+    width: 90%;
+    text-align: left;
+    margin-top:var(--m-md);
+}
+
+.icon-menu{
+    fill: var(--light);
+    width: var( --icon-sm);
+    height:var( --icon-sm);
+}
+
+.avatar {
+    width: var( --icon-xxl);
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 5px solid var(--light);
+  }

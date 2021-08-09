@@ -1,0 +1,79 @@
+
+:root {
+
+    --root-color-Bg :rgba(78,92,191,1);
+    --root-color-title : rgba(0,0,0,1);
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray: #7e8299;
+    --gray-dark: #3f4254;
+    --primary: #3699ff;
+    --secondary: #e4e6ef;
+    --success: #1bc5bd;
+    --info: #8950fc;
+    --warning: #ffa800;
+    --danger: #f64e60;
+    --light: #f3f6f9;
+    --dark: #181c32;
+    --white: #fff;
+
+    --icon-xs: 30px;
+    --icon-sm: 40px;
+    --icon-md: 50px;
+    --icon-lg: 75px;
+    --icon-xl: 100px;
+    --icon-xxl: 150px;
+
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 22px;
+    --font-xxl: 44px;
+
+    --m-xs: 5px;
+    --m-sm: 10px;
+    --m-md: 20px;
+    --m-lg: 40px;
+    --m-xl: 80px;
+    --m-xxl: 160px;
+
+    --mt-xs: 5px;
+    --mt-sm: 10px;
+    --mt-md: 20px;
+    --mt-lg: 40px;
+    --mt-xl: 80px;
+    --mt-xxl: 160px;
+
+    --mr-xs: 5px;
+    --mr-sm: 10px;
+    --mr-md: 20px;
+    --mr-lg: 40px;
+    --mr-xl: 80px;
+    --mr-xxl: 160px;
+
+    --mb-xs: 5px;
+    --mb-sm: 10px;
+    --mb-md: 20px;
+    --mb-lg: 40px;
+    --mb-xl: 80px;
+    --mb-xxl: 160px;
+
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-xxl: 1400px;
+
+
+}

@@ -1,0 +1,105 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url("/assets/fonts/IRANSansWeb/IRANSansWeb.eot");
+    src: url("/assets/fonts/IRANSansWeb/IRANSansWeb.Web");
+    src: url("/assets/fonts/IRANSansWeb/IRANSansWeb.woff");
+    src: url("/assets/fonts/IRANSansWeb/IRANSansWeb.woff2");
+  
+    font-family: "iransans";
+
+  }
+
+
+body{
+    font-family: 'iransans';
+    direction: rtl;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row-reverse{
+    flex-direction: row;
+    flex-direction: row-reverse;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+.flex-column-reverse{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.align-items-start{
+    align-items: flex-start;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-baseline{
+    align-items: baseline;
+}
+
+.align-items-stretch{
+    align-items: stretch;
+}
+
+.d-none{
+    display: none;
+}
