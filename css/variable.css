@@ -26,12 +26,14 @@
     --dark: #181c32;
     --white: #fff;
 
-    --icon-xs: 30px;
+    --icon-xxs: 13px;
+    --icon-xs: 20px;
     --icon-sm: 40px;
     --icon-md: 50px;
     --icon-lg: 75px;
     --icon-xl: 100px;
-    --icon-xxl: 150px;
+    --icon-xxl: 125px;
+    --icon-xxxl: 150px;
 
     --font-xs: 12px;
     --font-sm: 14px;
@@ -47,26 +49,7 @@
     --m-xl: 80px;
     --m-xxl: 160px;
 
-    --mt-xs: 5px;
-    --mt-sm: 10px;
-    --mt-md: 20px;
-    --mt-lg: 40px;
-    --mt-xl: 80px;
-    --mt-xxl: 160px;
-
-    --mr-xs: 5px;
-    --mr-sm: 10px;
-    --mr-md: 20px;
-    --mr-lg: 40px;
-    --mr-xl: 80px;
-    --mr-xxl: 160px;
-
-    --mb-xs: 5px;
-    --mb-sm: 10px;
-    --mb-md: 20px;
-    --mb-lg: 40px;
-    --mb-xl: 80px;
-    --mb-xxl: 160px;
+  
 
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;

@@ -1,54 +1,80 @@
+<!doctype>
+<html lang="en">
 
-  <!doctype>
-  <html lang="en">
-  <head>
-    <title>SVG Sprite</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <style>
-      html { box-sizing: border-box }
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
-          "Oxygen","Ubuntu","Cantarell","Fira Sans",
-          "Droid Sans","Helvetical Neue",sans-serif;
-        font-size: 1.125rem;
-        text-align: center
-      }
-      h1{
-        font-weight: 100;
-        margin-bottom: 1em
-      }
-      small { font-size: .34em }
-      .icon { 
-  width: 50px; 
-  height: 50px;
-  margin: .5em;
-}
-    </style>
-  </head>
-    
-  <body>
-    <!-- SVG Sprite -->
-    <svg width="0" height="0" class="hidden">
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.97 384.97" id="menu">
-    <path d="M12.03 120.303h360.909c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03zm360.909 60.152H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.909c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03zm0 84.212H132.333c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h240.606c6.641 0 12.03-5.39 12.03-12.03.001-6.641-5.389-12.03-12.03-12.03z"></path>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 459" id="filter-">
-    <path d="M178.5 382.5h102v-51h-102v51zM0 76.5v51h459v-51H0zM76.5 255h306v-51h-306v51z"></path>
-  </symbol>
-</svg>
-    <h1>
-      SVG Sprite Demo
-      <br/>
-      <small>
-        created with <a href="https://svgsprit.es/">svgsprit.es</a>
-      </small>
-    </h1>
-    <svg class="icon">
-  <use xlink:href="#menu"></use>
-</svg><svg class="icon">
-  <use xlink:href="#filter-"></use>
-</svg>
-  </body>
+<head>
+  <title>SVG Sprite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <style>
+    html {
+      box-sizing: border-box
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetical Neue", sans-serif;
+      font-size: 1.125rem;
+      text-align: center
+    }
+
+    h1 {
+      font-weight: 100;
+      margin-bottom: 1em
+    }
+
+    small {
+      font-size: .34em
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin: .5em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- SVG Sprite -->
+  <svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.97 384.97" id="menu">
+      <path
+        d="M12.03 120.303h360.909c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03zm360.909 60.152H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.909c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03zm0 84.212H132.333c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h240.606c6.641 0 12.03-5.39 12.03-12.03.001-6.641-5.389-12.03-12.03-12.03z">
+      </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 459" id="filter-">
+      <path d="M178.5 382.5h102v-51h-102v51zM0 76.5v51h459v-51H0zM76.5 255h306v-51h-306v51z"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 330" id="down-arrow-bottom">
+      <path
+        d="M325.607 79.393c-5.857-5.857-15.355-5.858-21.213.001l-139.39 139.393L25.607 79.393c-5.857-5.857-15.355-5.858-21.213.001-5.858 5.858-5.858 15.355 0 21.213l150.004 150a14.999 14.999 0 0021.212-.001l149.996-150c5.859-5.857 5.859-15.355.001-21.213z">
+      </path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="warning">
+      <path d="M12 24C5.383 24 0 18.617 0 12S5.383 0 12 0s12 5.383 12 12-5.383 12-12 12zm0-23C5.935 1 1 5.935 1 12s4.935 11 11 11 11-4.935 11-11S18.065 1 12 1z"></path>
+      <path d="M12 19c-.827 0-1.5-.673-1.5-1.5S11.173 16 12 16s1.5.673 1.5 1.5S12.827 19 12 19zm0-2a.5.5 0 100 1 .5.5 0 000-1zm0-3a.5.5 0 01-.5-.5v-8a.5.5 0 011 0v8a.5.5 0 01-.5.5z"></path>
+    </symbol>
+
+  </svg>
+  <h1>
+    SVG Sprite Demo
+    <br />
+    <small>
+      created with <a href="https://svgsprit.es/">svgsprit.es</a>
+    </small>
+  </h1>
+  <svg class="icon">
+    <use xlink:href="#menu"></use>
+  </svg><svg class="icon">
+    <use xlink:href="#filter-"></use>
+  </svg>
+  </svg><svg class="icon">
+    <use xlink:href="#down-arrow-bottom"></use>
+  </svg>
+  </svg><svg class="icon">
+    <use xlink:href="#warning"></use>
+  </svg>
+</body>

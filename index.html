@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/variable.css">
+    <link rel="stylesheet" href="./css/customBoostap.css">
+    <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/page/index/index.css">
 
 </head>
@@ -17,14 +18,46 @@
     <div class="d-flex flex-wrap containar">
         <!-- start sidebar -->
         <div class="sidebar">
-            <div class="menu">
-               <svg class="icon-menu">
+
+            <!-- start profile -->
+            <div class="profile">
+                <svg class="icon-profile">
                     <use xlink:href="/assets/icons/sprite.svg#menu"></use>
                 </svg>
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="avatar-profile position-relative ">
                 <img src="/assets/images/avatr.jpg" alt="" class="avatar" />
+                <i class="symbol-badge-success position-absolute symbol-badge"></i>
             </div>
+            <div class="info-profile">
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <h3 class="info-fullName">مهدی مارکویی</h3>
+                        <svg class="icon-info">
+                            <use xlink:href="/assets/icons/sprite.svg#down-arrow-bottom"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="info-disc">کارشناس ، طراح ، گرافیک</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end profile -->
+            <!-- start menu -->
+            <div class="menu">
+                <ul class="list-sidbar">
+                    <li>
+                        <p class="d-flex align-items-center">
+                            <svg class="icon-menu">
+                                <use xlink:href="/assets/icons/sprite.svg#warning"></use>
+                            </svg>
+                            <span >دستگاها</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!-- end menu -->
+
         </div>
         <!-- end sidebar -->
 

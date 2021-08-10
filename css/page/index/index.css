@@ -11,24 +11,78 @@ body{
 .sidebar{
     width: 20%;
     min-width: 300px;
-    background-color: var(--gray-dark);
+    background-color: var( --dark);
 }
 
-.menu{
+.profile{
     width: 90%;
     text-align: left;
     margin-top:var(--m-md);
 }
 
-.icon-menu{
+.icon-profile{
     fill: var(--light);
     width: var( --icon-sm);
     height:var( --icon-sm);
 }
 
-.avatar {
+.avatar-profile{
+    margin: auto;
     width: var( --icon-xxl);
+}
+
+.avatar {
     border-radius: 50%;
     vertical-align: middle;
+    width: var( --icon-xxl);
     border: 5px solid var(--light);
-  }
+}
+
+.symbol-badge{
+    top: 90px;
+    right: 6px;
+}
+
+.info-profile{
+   margin: var(--m-sm); 
+}
+
+.info-fullName{
+    color: var(--light);
+    margin: var(--m-xs);
+    margin-left: var(--m-sm);
+}
+
+.icon-info{
+    fill:var(--light);
+    width: var(--icon-xxs) ;
+    height: var(--icon-xxs);
+}
+
+.info-disc{
+   color: var(--gray);
+   font-size: var(--font-xs);
+}
+
+.menu{
+    width: 100%;
+    margin-top: var(--m-xl);
+}
+
+.list-sidbar{
+    width: 90%;
+    margin-right: auto;
+    list-style: none;
+}
+
+.icon-menu{
+    fill:var(--light);
+    width: var(--icon-xs) ;
+    height: var(--icon-xs);
+    margin-left: var(--m-sm);
+}
+
+.list-sidbar li{
+    color: var(--light);
+    cursor: pointer;
+}
