@@ -86,3 +86,22 @@ body{
     color: var(--light);
     cursor: pointer;
 }
+
+/* li > ul { display: none; }
+li li { margin-left: 10px; } */
+
+.sub-menu{
+    list-style: none;
+    width: 90%;
+    margin-right: auto;
+    line-height: 2;
+}
+
+.sub-menu li{
+    padding: 5px 15px;
+    border-radius:0px 50px 50px 0px;
+}
+
+.sub-menu li:hover{ 
+    background-color: var(--info);
+}

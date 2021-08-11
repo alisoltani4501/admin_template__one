@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/page/index/index.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -44,15 +47,29 @@
             </div>
             <!-- end profile -->
             <!-- start menu -->
-            <div class="menu">
+            <div class="menu" id="c">
                 <ul class="list-sidbar">
                     <li>
                         <p class="d-flex align-items-center">
                             <svg class="icon-menu">
                                 <use xlink:href="/assets/icons/sprite.svg#warning"></use>
                             </svg>
-                            <span >دستگاها</span>
+                            <span>دستگاها</span>
                         </p>
+                        <ul class="sub-menu">
+                            <li>
+                                <p>گزارش وضعیت ارسال</p>
+                            </li>
+                            <li>
+                                <p>گزارش محدوده محاسبات</p>
+                            </li>
+                            <li>
+                                <p>پیشکارت ها</p>
+                            </li>
+                            <li>
+                                <p>گروه کاری</p>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -68,6 +85,29 @@
         <!-- end content -->
     </div>
     <!-- end containar -->
+
+    <script>
+        $(document).ready(function () {
+
+            $("#nav ul li").hover(function () {
+                if ($("> ul", this).length > 0) {
+                    $("> ul", this).show();
+                    alert('tw')
+                }
+            }, function () {
+                if ($("> ul", this).length > 0) {
+                    $("> ul", this).hide();
+                }
+            });
+
+            // $(function () {
+            //     $('#nav li ul').hide().removeClass('sub-menu');
+            //     $('#nav li').hover(function () {
+            //         $('ul', this).stop().slideToggle(200);
+            //     });
+            // });
+        });
+    </script>
 </body>
 
 </html>
