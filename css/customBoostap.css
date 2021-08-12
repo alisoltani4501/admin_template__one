@@ -15,7 +15,7 @@
   }
 
 
-body{
+body , button{
     font-family: 'iransans';
     direction: rtl;
 }

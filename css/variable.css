@@ -1,7 +1,7 @@
 
 :root {
 
-    --root-color-Bg :rgba(78,92,191,1);
+    --root-color :rgba(78,92,191,1);
     --root-color-title : rgba(0,0,0,1);
 
     --blue: #007bff;
@@ -28,7 +28,7 @@
 
     --icon-xxs: 13px;
     --icon-xs: 20px;
-    --icon-sm: 40px;
+    --icon-sm: 30px;
     --icon-md: 50px;
     --icon-lg: 75px;
     --icon-xl: 100px;
@@ -48,8 +48,6 @@
     --m-lg: 40px;
     --m-xl: 80px;
     --m-xxl: 160px;
-
-  
 
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;

@@ -25,3 +25,10 @@
     background-color: var(--red);
     border-radius: 50%;
 }
+.symbol-badge-alarm{
+    padding: 2px 5px;
+    font-size: 10px;
+    background-color: var(--pink);
+    font-weight: bold;
+    border-radius: 50%;
+}
